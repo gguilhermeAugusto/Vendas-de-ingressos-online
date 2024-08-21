@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Detalhes do Evento</title>
+</head>
+<body>
+    <header>
+        <h1>Detalhes do Evento</h1>
+    </header>
+
+    <main>
+        <div id="event-details">
+            <!-- Os detalhes do evento serão inseridos aqui via JavaScript -->
+        </div>
+
+        <div id="ticket-purchase">
+            <label for="ticket-quantity">Quantidade de Ingressos:</label>
+            <input type="number" id="ticket-quantity" name="quantity" min="0" value="0">
+            <p>Total: R$ <span id="total-price">0.00</span></p>
+            <button id="purchase-btn">Comprar</button>
+        </div>        
+    </main>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
